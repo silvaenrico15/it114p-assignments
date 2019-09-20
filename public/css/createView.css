@@ -22,8 +22,8 @@
 
 button {
     font: inherit;
-    border: 1px solid #ca3e47;
-    color: #ca3e47;
+    border: 1px solid #02318a;
+    color: #6375da;
     background: white;
     border-radius: 3px;
     cursor: pointer;
@@ -31,6 +31,32 @@ button {
 
 button:hover,
 button:active {
-    background-color: #ca3e47;
+    background-color: #5217c0;
     color: white;
+}
+input[type=text]:focus
+{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.form-control input[type=text]
+{
+    padding-left: 40px;
+}
+.form-control input[type=password]
+{
+    padding-left: 40px;
+}
+.form-control
+{
+    position: relative;
+}
+.form-control i
+{
+    position:absolute;
+    left:0;
+    top:7px;
+    padding:12px 7px;
+    color: dodgerblue;
 }

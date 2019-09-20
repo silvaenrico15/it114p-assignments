@@ -1,8 +1,16 @@
 <header class="main-header">
     <nav class="main-header__nav">
         <ul class="main-header__item-list">
-            <li class="main-header__item"><a class="<%= path === '' ? 'active' : '' %>" href="/">Shop</a></li>
-            <li class="main-header__item"><a class="<%= path === 'add-data' ? 'active' : '' %>" href="add-data">Add Data</a></li>
+            <li class="main-header__item">
+                <a class="navbar-item <%= path === '' ? 'is-active' : '' %>" href="/">
+               <i class="mdi mdi-24px mdi-cart">Shop</i>
+            </a>
+            </li>
+            <li class="main-header__item">
+                <a class="navbar-item <%= path === 'add-data' ? 'is-active' : '' %>" href="add-data">
+                   <i class="mdi mdi-24px mdi-tag-plus"> Add Data</i>
+            </a>
+        </li>
         </ul>
     </nav>
 </header>
