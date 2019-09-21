@@ -5,20 +5,37 @@
 
 <body>
    <%- include('includes/nav.ejs') %>
-    <main>
+     <main>
         <form class="add-form" action="add-data" method="POST">
+         
             <div class="form-control">
-                <label for="title"></label>
-                Username<input type="text" placeholder="Username" name="user" id="title">
-                <i class="mdi mdi-24px mdi-account-circle"></i>
-            </div>
+                <div class="control has-icons-left has-icons-right">
+                  <input class="input" type="text" placeholder="Username" name="user">
+                  <span class="icon is-small is-left">
+                    <i class="mdi mdi-24px mdi-account-circle"></i>
+                  </span>
+                  <span class="icon is-small is-right">
+                    <i class="mdi mdi-24px mdi-check-bold"></i>
+                  </span>
+              
             <div class="form-control">
-                 Password<input type="password" placeholder="Password" name="pass" id="title1">
-                 <i class="mdi mdi-24px mdi-lock-question"></i>
-            </div>
-
-            <button class="btn" type="submit">Add Data</button>
+                <div class="control has-icons-left has-icons-right">
+                  <input class="input" type="password" placeholder="Password" name="pass" id="title1">
+                  <span class="icon is-small is-left">
+                    <i class="mdi mdi-24px mdi-lock-question"></i>
+                  </span>
+                  <span class="icon is-small is-right">
+                    <i class="mdi mdi-24px mdi-alert-outline"></i>
+                  </span>
+                </div>
+                <div>
+                <div class="form-control">
+                    <div class="control">
+                      <button class="button is-link">Submit</button>
+                    </div>
+                </div>  
         </form>
     </main>
+ 
 </body>
 </html>

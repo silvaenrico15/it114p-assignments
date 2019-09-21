@@ -34,29 +34,3 @@ button:active {
     background-color: #5217c0;
     color: white;
 }
-input[type=text]:focus
-{
-    border-color: dodgerblue;
-    box-shadow: 0 0 8px 0 dodgerblue;
-}
-
-.form-control input[type=text]
-{
-    padding-left: 40px;
-}
-.form-control input[type=password]
-{
-    padding-left: 40px;
-}
-.form-control
-{
-    position: relative;
-}
-.form-control i
-{
-    position:absolute;
-    left:0;
-    top:7px;
-    padding:12px 7px;
-    color: dodgerblue;
-}
